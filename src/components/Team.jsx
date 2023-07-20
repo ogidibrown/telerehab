@@ -12,7 +12,7 @@ const MeetPage = () => {
   return (
     <div id ='meet' className='flex flex-col gap-4 '>
         <div>
-            <h1 className=' text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center mt-4'>Our <span className='text-[#5F45CC] ml-2'>Team</span></h1>
+            <h1 className=' text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center  mt-4'>Our <span className='text-[#5F45CC] ml-2'>Team</span></h1>
         </div>
         <div className=' grid grid-cols-2  md:grid-cols-4 items-center mb-[35px] gap-3 p-2'>
              <div className='flex flex-col items-center justify-center  text-center md:mb-3  p-2 gap-3'>

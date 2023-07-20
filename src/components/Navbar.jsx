@@ -19,19 +19,19 @@ const Links =[
     },
     {
         id: 2,
-        title: "Our Team",
-        link:"meet"
-    },
-    {
-        id: 3,
         title: "News",
         link:"news"
     },
    
     {
-        id: 4,
+        id: 3,
         title: "About Us",
         link:"about"
+    },
+    {
+        id: 4,
+        title: "Our Team",
+        link:"meet"
     },
    
 ];
@@ -77,10 +77,13 @@ const toggleNav = ()=>{
 
   return (
         
-        <nav className={` ${color ? 'bg-[#6045ccb8] text-white' :'bg-none' }    h-[100px] fixed left-0 px-[15px] md:px-[30px] top-0 w-full flex  justify-between items-center `}>
-        <Link href="/" >
-            <Image src={Logo} width={200} height={150} alt="logo" className='w-[150px] h-[100px] md:w-[200px] md:h-[150px]'/>
-        </Link>
+        <nav className={` ${color ? 'bg-[#6045ccb8] text-white' :'bg-none' }  text-white  h-[100px] md:h-[120px] fixed left-0 px-[15px] md:px-[30px] top-0 w-full flex  justify-between items-center `}>
+        <div className='flex flex-col'>
+            <Link href="/" >
+                <Image src={Logo} width={500} height={500} alt="logo" className='w-[130px] h-[120px] md:w-[180px] md:h-[180px] p-[8px]'/>
+                
+            </Link>
+        </div>
         
             <FaBars  onClick={toggleNav} className={ ` ${open ? '':''} md:hidden h-[30px] w-[40px] cursor-pointer`}/>
         

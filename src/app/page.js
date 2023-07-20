@@ -10,9 +10,9 @@ export default function Page() {
    <div className='container'>
       <Navbar />
       <Home />
-      <Team />
       <News />
       <About />
+      <Team />
       <Footer />
    </div>
   )

@@ -46,12 +46,12 @@ const About = () => {
           <VideoPlayer  />
           </div>
       </div>
-      <div className='flex flex-col items-center '>
+      <div className='flex flex-col items-center'>
           <h1 className=' text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center my-4'>Vision</h1>
-          <div className=' flex   '>
+          <div className=' flex '>
             <div className='flex items-center flex-col p-2 flex-1'>
 
-              <span className=' '>
+              <span className=''>
               1)   To provide a forum for researchers spanning health care, policy and practice, information technology together with service users/carers and other key stakeholders to develop research priorities for telerehabilitation for people with neurological conditions in Ghana
               <br />
               <br />
