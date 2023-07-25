@@ -58,9 +58,13 @@ const News = () => {
                 >
                   <SwiperSlide>
                     <Image src={Slide1} width={400} height={400}  alt='slide image' className='rounded-[5px] h-full w-full md:w-[400px] md:h-[300px]'  />
+                    <h1 className='text-[15px] md:text-[18px] font-bold my-2' >Busy neurological clinics in komfo Anokye Teaching Hospital, Kumasi</h1>
+                    <p>The neurological departments in Komfo Anokye Teaching Hospital are always busy with carrying out their day-to-day administration</p>
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image src={Slide2} width={400} height={400}  alt='slide image' className='rounded-[5px] h-full w-full md:w-[400px] md:h-[300px]'  />
+                    <h1 className='text-[15px] md:text-[18px] font-bold my-2' >The team in UK with the team in Ghana</h1>
+                    <p>The team from UK visited Ghana and took pictures with the team in Ghana</p>
                   </SwiperSlide>
                   <SwiperSlide className=''>
                     <Image src={Slide3} width={400} height={400}  alt='slide image' className='rounded-[5px] h-full w-full md:w-[400px] md:h-[300px]'  />

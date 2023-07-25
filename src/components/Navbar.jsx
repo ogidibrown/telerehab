@@ -81,7 +81,7 @@ const toggleNav = ()=>{
         <div className='flex flex-col'>
             <Link href="/" >
                 <Image src={Logo} width={500} height={500} alt="logo" className='w-[130px] h-[120px] md:w-[180px] md:h-[180px] p-[8px]'/>
-                
+                <h1 className='font-bold text-[15px] md:text-[18px] mt-[-30px]'>TELEREHABILITATION</h1>
             </Link>
         </div>
         
