@@ -89,7 +89,7 @@ const toggleNav = ()=>{
         
             <div className={` hidden md:flex md:items-center md:gap-[20px] `}>
                 { Links.map(({link, title, id})=>(
-                    <Link to={link} activeClass='active' offset={50} smooth={true} spy={true} duration={500}  className={`${pathname===link ? "border-[#5F45CC] border-b-4" : ""  }  w-[90px] h-[35px] p-1 flex flex-col md:flex-row  items-center cursor-pointer justify-center`} >{title}</Link>
+                    <Link to={link} activeClass='active' offset={50} smooth={true} spy={true} duration={500}  className={`${id ===link ? "border-[#5F45CC] border-b-4" : ""  }  w-[90px] h-[35px] p-1 flex flex-col md:flex-row  items-center cursor-pointer justify-center`} >{title}</Link>
                 ))}
                 
                 {/* <button className='p-[5px] border-none bg-[#5F45CC] text-white hahahahahahahaha rounded-[3px] w-[70px]'>Login</button> */}
@@ -98,7 +98,7 @@ const toggleNav = ()=>{
 
             <div className={` absolute right-[35px] top-[85px]  md:hidden  flex flex-col items-center text-white gap-[20px] bg-[#6045ccd7] w-[200px] rounded-[10px] `}>
                 { open&& Links.map(({link, title, id})=>(
-                    <Link to={link} activeClass='active' offset={50} smooth={true} spy={true} duration={500} onClick={()=>setOpen(!open)} className={`${pathname===link ? "border-[#111] border-b-4" : ""  }  w-[90px] h-[35px] p-1 flex flex-col md:flex-row cursor-pointer  items-center justify-center`} >{title}</Link>
+                    <Link to={link} activeClass='active' offset={50} smooth={true} spy={true} duration={500} onClick={()=>setOpen(!open)} className={`${id ===link ? "border-[#5F45CC] border-b-4" : ""  }  w-[90px] h-[35px] p-1 flex flex-col md:flex-row cursor-pointer  items-center justify-center`} >{title}</Link>
                 ))}
                 
                 {/* <button className='p-[5px] border-none bg-[#5F45CC] text-white rounded-[3px] w-[70px]'>Login</button> */}
