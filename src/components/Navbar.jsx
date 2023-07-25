@@ -60,11 +60,19 @@ const toggleNav = ()=>{
          setColor(false)
         }
      }
-   
 
-     window.addEventListener("scroll", changeScroll )
-
-
+     
+      
+        useEffect(() => {
+          // Only add the scroll event listener when the component is mounted on the client-side
+          // It will be executed after the initial render on the client-side
+          window.addEventListener("scroll", changeScroll);
+      
+          // Clean up the event listener when the component is unmounted
+          return () => {
+            window.removeEventListener("scroll", changeScroll);
+          };
+        }, []);
 
 
 
