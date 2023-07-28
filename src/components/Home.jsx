@@ -1,6 +1,8 @@
+'use client';
 import Button from '../components/Button'
 import Image from 'next/image'
 import HeroImg from '../../public/hero.jpeg'
+import { Link } from 'react-scroll';
 
 export default function Home() {
   return (
@@ -14,8 +16,9 @@ export default function Home() {
 
 
 
-
-        <Button className='flex justify-center text-center self-center items-center md:mt-[30px]  ' text='Read More' url='/about' />
+      <Link to='about' activeClass='active' offset={50} smooth={true} spy={true} duration={500} >
+          <Button className='flex justify-center text-center self-center items-center md:mt-[30px]  ' text='Read More' url='' />
+      </Link>
      
       
    </div>
