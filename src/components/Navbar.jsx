@@ -85,11 +85,11 @@ const toggleNav = ()=>{
 
   return (
         
-        <nav className={` ${color ? 'bg-[#6045ccb8] text-white' :'bg-none' }  text-white  h-[100px] md:h-[120px] fixed left-0 px-[15px] md:px-[30px] top-0 w-full flex  justify-between items-center `}>
+        <nav className={` ${color ? 'bg-[#6045ccb8] text-white' :'bg-none' }  text-white  h-[120px] md:h-[140px] fixed left-0 px-[15px] md:px-[30px] top-0 w-full flex  justify-between items-center `}>
         <div className='flex flex-col'>
             <Link href="/" >
-                <Image src={Logo} width={500} height={500} alt="logo" className='w-[130px] h-[120px] md:w-[180px] md:h-[180px] p-[8px]'/>
-                <h1 className='font-bold text-[15px] md:text-[18px] mt-[-30px]'>TELEREHABILITATION</h1>
+                <Image src={Logo} width={600} height={600} alt="logo" className='w-[130px] h-[120px] md:w-[210px] md:h-[210px] p-[8px]'/>
+                <h1 className='font-bold text-[16px] md:text-[22px] mt-[-30px]'>TELEREHABILITATION</h1>
             </Link>
         </div>
         

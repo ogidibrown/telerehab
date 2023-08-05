@@ -46,7 +46,7 @@ const MeetPage = () => {
             </div>
             <div className='flex flex-col items-center justify-center text-center mt-[30px]  gap-3  p-2'>
                 <Image src={Frederik} width={150} height={120} alt='Lorna' className='  ' />
-                <h1 className='font-bold text-[15] md:text-[20px] '>Prof Frederik V. Wijck</h1>
+                <h1 className='font-bold text-[15] md:text-[20px] '>Prof Frederike V. Wijck</h1>
                 <span className='flex items-center justify-center text-[#5F45CC] text-[14px] md:text-[18px]'>Prof of Neurological Rehabilitation and Co-Director of the Research Centre for Health</span>
                 {/* <p className='flex items-center justify-center'>
                 undertaking assessments of patients’ physical, 
@@ -59,7 +59,7 @@ const MeetPage = () => {
             <div className='flex flex-col items-center justify-center md:mb-[35px] text-center gap-3  p-2'>
                 <Image src={Katie} width={150} height={120} alt='Lorna' className='r md:mt-[20px] ' />
                 <h1 className='font-bold text-[15] md:text-[20px]'>Dr. Katie Thompson</h1>
-                <span className='flex items-center justify-center text-[#5F45CC] text-[14px] md:text-[18px]'>Occupational Therapist & Systematic Reviewer (NESSIE)</span>
+                <span className='flex items-center justify-center text-[#5F45CC] text-[14px] md:text-[18px]'>Occupational Therapist & Systematic Reviewer (NESSIE) (Glasgow Caledonian University)</span>
              
             </div>
             <div className='flex flex-col items-center justify-center text-center  md:mt-2  gap-3 p-2'>
