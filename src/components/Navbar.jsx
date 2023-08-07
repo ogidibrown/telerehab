@@ -85,7 +85,7 @@ const toggleNav = ()=>{
 
   return (
         
-        <nav className={` ${color ? 'bg-[#6045ccb8] text-white' :'bg-none' }  text-white  h-[120px] md:h-[140px] fixed left-0 px-[15px] md:px-[30px] top-0 w-full flex  justify-between items-center `}>
+        <nav className={` ${color ? 'bg-[#6045ccb8] text-white' :'bg-none' }  text-white  h-[120px] md:h-[220px] fixed left-0 px-[15px] md:px-[30px] top-0 w-full flex  justify-between items-center `}>
         <div className='flex flex-col'>
             <Link href="/" >
                 <Image src={Logo} width={600} height={600} alt="logo" className='w-[130px] h-[120px] md:w-[210px] md:h-[210px] p-[8px]'/>

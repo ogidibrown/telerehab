@@ -56,9 +56,9 @@ const MeetPage = () => {
             </div>
             
             
-            <div className='flex flex-col items-center justify-center md:mb-[35px] text-center gap-3  p-2'>
+            <div className='flex flex-col items-center justify-center md:mt-[20px] text-center gap-3  p-2'>
                 <Image src={Katie} width={150} height={120} alt='Lorna' className='r md:mt-[20px] ' />
-                <h1 className='font-bold text-[15] md:text-[20px]'>Dr. Katie Thompson</h1>
+                <h1 className='font-bold text-[15] md:text-[20px]'>Dr. Katie Thomson</h1>
                 <span className='flex items-center justify-center text-[#5F45CC] text-[14px] md:text-[18px]'>Occupational Therapist & Systematic Reviewer (NESSIE) (Glasgow Caledonian University)</span>
              
             </div>
