@@ -35,7 +35,7 @@ const News = () => {
                     slidesPerView: 1,
                    
                   },
-                  // when window width is >= 480px
+                  // when window width is >= 480px  gfhfyjfgytrtsedstrhfkjggxfdzfdshgcgdfasred
                   480: {
                     slidesPerView: 1,
                     
