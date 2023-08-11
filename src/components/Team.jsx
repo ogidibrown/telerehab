@@ -19,7 +19,7 @@ const MeetPage = () => {
                 <Image src={Lorna} width={160} height={120} alt='Lorna' className=' ' />
 
                 <h1 className='font-bold text-[15px] md:text-[20px]  '>Prof Lorna Paul</h1>
-                <span className='text-[#5F45CC] text-[14px] md:text-[18px]  '>Physiotherapist and Professor of Allied Health Science at Glasgow Caledonian</span>
+                <span className='text-[#5F45CC] text-[14px] md:text-[18px]  '>Physiotherapist and Professor of Allied Health Science at Glasgow Caledonian University</span>
                 {/* <p>
                     Empower residents 
                     to maintain their potential and sense of 
