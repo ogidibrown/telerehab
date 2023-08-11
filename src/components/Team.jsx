@@ -41,13 +41,13 @@ const MeetPage = () => {
             <div className='flex flex-col items-center justify-center  text-center mb-[35px] md:mt-[40px]  p-2 gap-3'>
                 <Image src={Marian} width={150} height={120} alt='Lorna' className=' ' />
                 <h1 className='font-bold text-[15] md:text-[20px]  '>Prof Marian Brady</h1>
-                <span className='text-[#5F45CC] text-[14px] md:text-[18px]'>Speech and Language Therapist (Glasgow Caledonian University)</span>
+                <span className='text-[#5F45CC] text-[14px] md:text-[18px]'>Professor of Stroke Care and Rehabilitation. Speech and Language Therapist (Glasgow Caledonian University)</span>
                 
             </div>
             <div className='flex flex-col items-center justify-center text-center mt-[30px]  gap-3  p-2'>
                 <Image src={Frederik} width={150} height={120} alt='Lorna' className='  ' />
-                <h1 className='font-bold text-[15] md:text-[20px] '>Prof Frederike V. Wijck</h1>
-                <span className='flex items-center justify-center text-[#5F45CC] text-[14px] md:text-[18px]'>Prof of Neurological Rehabilitation and Co-Director of the Research Centre for Health</span>
+                <h1 className='font-bold text-[15] md:text-[20px] '>Prof Frederike Van Wijck</h1>
+                <span className='flex items-center justify-center text-[#5F45CC] text-[14px] md:text-[18px]'>Prof of Neurological Rehabilitation and Co-Director of the Research Centre for Health (Glasgow Caledonian University)</span>
                 {/* <p className='flex items-center justify-center'>
                 undertaking assessments of patients’ physical, 
                 communication, interaction and cognitive skills

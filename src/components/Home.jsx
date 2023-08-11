@@ -27,7 +27,7 @@ const Slides = [
 const Home = () => {
   return (
     <div id ='home' className="">
-        <Carousel autoSlide={true} autoSlideInterval={4000} >
+        <Carousel loop={true} autoSlide={true} autoSlideInterval={4000} >
             {Slides.map((item, id )=>(
                 <Image src={item.img} id={id} width={900} height={900} alt="hero images" className=' h-[400px] md:min-h-screen md:min-w-full brightness-50  w-full ' />
             ))}

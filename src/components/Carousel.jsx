@@ -37,7 +37,7 @@ export default function Carousel  ({children:Slides, autoSlide = false, autoSlid
             </button>
             <div className='flex flex-col items-center md:min-h-screen md:mt-[110px] mt-[100px] gap-10 md:gap-2 justify-evenly'>
                 <div className=' flex flex-col  items-center md:items-start gap-[50px]'>
-                     <h1 className='text-[25px] md:text-[55px] font-semibold text-[#fff] text-center   md:leading-[60px]  uppercase'>
+                     <h1 className='text-[25px] md:text-[55px] font-semibold text-[#fff] text-center md:w-[930px]   md:leading-[60px]  uppercase'>
                          A Global Challenge Research Network 
                      </h1>
                      <Link to='about' activeClass='active' offset={50} smooth={true} spy={true} duration={500} className=' flex self-center mt-[30px] md:mt-[100px]' >
