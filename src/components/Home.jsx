@@ -1,24 +1,40 @@
-'use client';
-import Button from '../components/Button'
+'use client'
 import Image from 'next/image'
-import HeroImg from 'public/hero.png'
-import { Link } from 'react-scroll';
+import Carousel from '../components/Carousel'
 
-export default function Home() {
+
+
+
+const Slides = [
+  {
+    id: 1,
+    img: "/hero1.jpg"
+  },
+     {
+    id: 2,
+    img: "/hero2.jpg"
+  },
+      {
+    id: 3,
+    img: "/hero3.jpg"
+  },
+       {
+    id: 4,
+    img: "/hero4.jpg"
+  },
+]
+
+const Home = () => {
   return (
-   <div className='flex flex-col md:flex-row mt-[160px]   items-center gap-[100px]'>
-      <div className='flex-1 flex flex-col  items-center md:items-start gap-[50px]'>
-        <h1 className='text-[20px] md:text-[35px] mt-4 text-center md:text-left text-[#444] font-[700]'>
-        Telerehabilitation for people with neurological conditions in 
-        Ghana - A Global Challenge Research Network 
-        </h1>
-      <Link to='about' activeClass='active' offset={50} smooth={true} spy={true} duration={500} className=' md:mb-[70px]' >
-          <Button className='flex justify-center text-center self-center text-[#5F45CC] items-center md:mb-[px]  ' text='Read More' url='' />
-      </Link>
-           </div>
-      <div className='p-2'>
-        <Image src={HeroImg} width={500} height={500} alt='hero image' className='object-cover w-[300px] h-[300px] md:h-full md:w-full'  />
-      </div>
-   </div>
+    <div id ='home' className="">
+        <Carousel autoSlide={true} autoSlideInterval={4000} >
+            {Slides.map((item, id )=>(
+                <Image src={item.img} id={id} width={900} height={900} alt="hero images" className=' h-[400px] md:min-h-screen md:min-w-full brightness-50  w-full ' />
+            ))}
+            
+        </Carousel>
+    </div>
   )
 }
+
+export default Home

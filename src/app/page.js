@@ -4,15 +4,11 @@ import Footer from '@/components/Footer'
 import Team  from '@/components/Team'
 import About  from '@/components/About'
 import News  from '@/components/News'
-import dynamic from 'next/dynamic';
-
-
-const DynamicNavbar = dynamic(() => import('../components/Navbar'), { ssr: false });
 
 export default function Page() {
   return (
-   <div className='container'>
-      <DynamicNavbar />
+   <div >
+     
       <Home />
       <News />
       <About />

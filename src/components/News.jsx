@@ -15,7 +15,7 @@ const News = () => {
 
 
     return (
-      <div id ='news' className='flex flex-col my-[20px] gap-4 '>
+      <div id ='news' className='  flex flex-col mx-[10px] my-[20px] gap-4 '>
           <div>
               <h1 className=' text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center mt-4'>News</h1>
           </div>
@@ -35,7 +35,7 @@ const News = () => {
                     slidesPerView: 1,
                    
                   },
-                  // when window width is >= 480px  gfhfyjfgytrtsedstrhfkjggxfdzfdshgcgdfasred
+                  // when window width is >= 480px  
                   480: {
                     slidesPerView: 1,
                     
