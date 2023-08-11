@@ -44,7 +44,7 @@ const Home = () => {
     <div id ='home' className="" >
         <Carousel autoSlide={true} autoSlideInterval={4000} >
         {Slides.map((item, index) => (
-              <div key={index}  className=' h-[400px] md:min-h-screen md:min-w-full brightness-50  w-full'>
+              <div key={index}  className=' h-[400px] md:min-h-screen md:min-w-full brightness-50  min-w-full'>
                 <Image src={item.img}  width={900} height={900} alt="hero images" className=' h-[400px] md:min-h-screen md:min-w-full w-full ' />
               </div>
             ))}
