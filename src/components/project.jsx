@@ -6,12 +6,12 @@ const Project = () => {
   return (
       
 
-     <section class="text-gray-600 body-font">
+     <section class="text-[#000] body-font">
      <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <h1 className='  text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center mt-4'>Projects</h1>
 
     <div class="flex flex-wrap w-full">
-      <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:mt-10 md:py-6">
+      <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:mt-20 md:py-6">
         <div class="flex relative pb-12">
           <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
