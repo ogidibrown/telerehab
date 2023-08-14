@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-scroll';
 import Image from 'next/image';
-import Logo from '../../public/logo.png'
+import Logo from '../../public/logo1.png'
 import { usePathname } from 'next/navigation';
 import {FaBars} from 'react-icons/fa';
 
@@ -90,11 +90,11 @@ const toggleNav = ()=>{
 
   return (
         
-        <nav className={` ${color ? 'bg-[#6045ccb8] text-white' :'bg-none' }  text-[#fff]  h-[130px] md:h-[140px] fixed left-0 px-[15px] md:px-[30px] top-0 w-full flex  justify-between items-center z-50 `}>
-        <div className='flex flex-col'>
+        <nav className={` ${color ? 'bg-[#6045ccb8] text-white' :'bg-none' }  text-[#fff]  h-[130px] md:h-[160px] fixed left-0 px-[15px] md:px-[30px] top-0 w-full flex  justify-between items-center z-50 `}>
+        <div className='flex flex-col p-2  '>
             <Link href="/" className='flex flex-col  justify-center items-center gap-2' >
-                <Image src={Logo} width={600} height={600} alt="logo" className='w-[130px] h-[120px] md:w-[150px] flex justify-center md:h-[130px] p-[8px]'/>
-                <h1 className='font-bold  text-[16px] md:text-[20px] mt-[-35px]'>TELEREHABILITATION</h1>
+                <Image src={Logo} width={600} height={600} alt="logo" className='w-[100px] h-[100px] md:w-[150px] flex justify-center md:h-[150px] p-[8px]'/>
+                <h1 className='font-bold  text-[16px] md:text-[20px] mt-[-15px]  '>TELEREHABILITATION</h1>
             </Link>
         </div>
         

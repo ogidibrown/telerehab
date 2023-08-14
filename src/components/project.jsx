@@ -4,9 +4,9 @@ import React from 'react'
 const Project = () => {
   return (
       <section id='project' class="text-gray-600 body-font">
-         <h1 className='  text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center my-4'>Projects</h1>
+         <h1 className='  text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center mt-4'>Projects</h1>
 
-     <div class="container px-5 py-24 mx-auto flex flex-wrap">
+     <div class="container px-5 py-10 mx-auto flex flex-wrap">
     <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
       <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
         <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
