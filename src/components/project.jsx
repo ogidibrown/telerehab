@@ -83,7 +83,7 @@ const Project = () => {
           </div>
         </div> */}
       </div>
-      <img class="lg:w-[60%] md:w-[60%] object-cover object-center rounded-lg md:mt-0 mt-12" src="/slide1.jpeg" alt="step"/>
+      <img class="lg:w-[40%] md:w-[40%] md:h-[65%] object-cover object-center md:ml-[120px] rounded-lg md:mt-[90px] mt-12" src="/slide1.jpeg" alt="step"/>
     </div>
   </div>
 </section>
