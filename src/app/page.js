@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import Team  from '@/components/Team'
 import About  from '@/components/About'
 import News  from '@/components/News'
+import Project from '@/components/project'
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
       <Home />
       <News />
       <About />
+      <Project/>
       <Team />
       <Footer />
    </div>

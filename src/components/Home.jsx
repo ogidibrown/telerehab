@@ -22,10 +22,10 @@ const Slides = [
     id: 4,
     img: "/hero4.jpg"
   },
-        {
-    id: 5,
-    img: "/hero5.jpeg"
-  },
+  //       {
+  //   id: 5,
+  //   img: "/hero5.jpeg"
+  // },
   //       {
   //   id: 6,
   //   img: "/hero6.jpeg"
