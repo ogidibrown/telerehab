@@ -44,7 +44,7 @@ const MeetPage = () => {
                 <span className='text-[#5F45CC] text-[14px] md:text-[18px]'>Professor of Stroke Care and Rehabilitation. Speech and Language Therapist (Glasgow Caledonian University)</span>
                 
             </div>
-            <div className='flex flex-col items-center justify-center text-center  md:mb-[20px]  gap-3  p-2'>
+            <div className='flex flex-col items-center justify-center text-center  md:mt-[20px]  gap-3  p-2'>
                 <Image src={Frederik} width={150} height={120} alt='Lorna' className='  ' />
                 <h1 className='font-bold text-[15] md:text-[20px] '>Prof Frederike Van Wijck</h1>
                 <span className='flex items-center justify-center text-[#5F45CC] text-[14px] md:text-[18px]'>Prof of Neurological Rehabilitation and Co-Director of the Research Centre for Health (Glasgow Caledonian University)</span>

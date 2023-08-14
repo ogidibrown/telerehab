@@ -9,7 +9,7 @@ import dynamic from 'next/dynamic';
 const DynamicNavbar = dynamic(() => import('../components/Navbar'), { ssr: false });
 
 
-export default function Carousel({ children: Slides, infinite = true, autoSlide = false, autoSlideInterval = 2000, }) {
+export default function Carousel({ children: Slides, infinite = true, autoSlide = false, autoSlideInterval = 8000, }) {
     
     
     const [curr, setCur] = useState(0)
