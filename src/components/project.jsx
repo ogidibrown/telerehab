@@ -7,7 +7,7 @@ const Project = () => {
       
 
      <section class="text-[#000] body-font">
-     <div class="container px-5 py-24 mx-auto flex flex-wrap">
+     <div class="container px-5 py-10 mx-auto flex flex-wrap">
     <h1 className='  text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center mt-4'>Projects</h1>
 
     <div class="flex flex-wrap w-full">
