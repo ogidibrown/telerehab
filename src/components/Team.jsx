@@ -15,7 +15,7 @@ const MeetPage = () => {
             <h1 className=' text-[30px] md:text-[40px] font-bold text-center flex justify-center items-center  mt-4'>Our <span className='text-[#5F45CC] ml-2'>Team</span></h1>
         </div>
         <div className=' grid grid-cols-2  md:grid-cols-4 items-center mb-[35px] gap-3 p-2'>
-             <div className='flex flex-col items-center justify-center mt-[15px] text-center md:mb-3  p-2 gap-3'>
+             <div className='flex flex-col items-center justify-center mt-[15px] text-center md:mb-8  p-2 gap-3'>
                 <Image src={Lorna} width={160} height={120} alt='Lorna' className=' ' />
 
                 <h1 className='font-bold text-[15px] md:text-[20px]  '>Prof Lorna Paul</h1>
