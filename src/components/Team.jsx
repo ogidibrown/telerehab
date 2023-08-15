@@ -29,7 +29,7 @@ const MeetPage = () => {
            
             <div className='flex flex-col items-center justify-center  md:mb-[35px] text-center mt-[25px]  p-2 gap-3'>
                 <Image src={Fred} width={150} height={120} alt='Lorna' className=' md:mt-2' />
-                <h1 className='font-bold text-[15px] md:text-[20px]  '>Prof Stephen F. Sarfo</h1>
+                <h1 className='font-bold text-[15px] md:text-[20px]  '>Prof. Fred Stephen Sarfo</h1>
                 <span className='text-[#5F45CC] text-[14px] md:text-[18px]'>Principal Investigator/Neurologist at Komfo Anokye Teaching Hospital & KNUST</span>
                 {/* <p>
                     Empower residents 
