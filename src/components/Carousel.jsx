@@ -39,8 +39,8 @@ export default function Carousel({ children: Slides, infinite = true, autoSlide 
             </button>
             <div className='flex flex-col items-center md:min-h-screen md:mt-[110px] mt-[100px] gap-10 md:gap-2 justify-evenly'>
                 <div className=' flex flex-col  items-center md:items-start gap-[50px]'>
-                     <h1 className='text-[20px] md:text-[45px] md:mt-[80px] pt-[50px] font-semibold text-[#fff] text-center md:w-[940px]   md:leading-[60px]  uppercase'>
-                        Telerehabilitation for People with with Neurological conditions in Ghana A Global Challenge Research Network 
+                     <h1 className='text-[16px] md:text-[30px] md:mt-[80px] pt-[50px] font-semibold text-[#fff] text-center md:w-[940px]   md:leading-[60px]  uppercase'>
+                        Telerehabilitation for People with with Neurological conditions in Ghana <br /><span className=' italic '> -A Global Challenge Research Network </span>
                      </h1>
                      <Link to='about' activeClass='active' offset={50} smooth={true} spy={true} duration={500} className=' flex self-center  md:mt-[60px]' >
                          <Button className='flex justify-center text-center self-center text-[#fff] items-center md:mb-[px]  ' text='Read More' url='' />
