@@ -39,7 +39,7 @@ export default function Carousel({ children: Slides, infinite = true, autoSlide 
             </button>
             <div className='flex flex-col items-center md:min-h-screen md:mt-[110px] mt-[100px] gap-10 md:gap-2 justify-evenly'>
                 <div className=' flex flex-col  items-center md:items-start gap-[50px]'>
-                     <h1 className='text-[16px] md:text-[40px] md:mt-[80px] pt-[50px] font-semibold text-[#fff] text-center md:w-[940px]   md:leading-[60px]  uppercase'>
+                     <h1 className='text-[16px] md:text-[50px] md:mt-[80px] pt-[50px] font-bold text-[#fff] text-center   md:leading-[60px]  uppercase'>
                         Telerehabilitation for People with Neurological conditions in Ghana <br /><span className=' italic bg-gradient-to-r from-[#5F45CC] via-[#a28fcf] to-blue-600 bg-clip-text text-transparent '> -A Global Challenge Research Network </span>
                      </h1>
                      <Link to='about' activeClass='active' offset={50} smooth={true} spy={true} duration={500} className=' flex self-center  md:mt-[60px]' >
